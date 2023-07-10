@@ -1,0 +1,76 @@
+:root{
+    --padding-ten: 10px;
+    --padding-twenty: 20px
+}
+
+@media  screen and (width >580px) {
+
+    .city-label{
+        text-align: start;
+      }
+
+    .header-div{
+        flex-direction: initial;
+    }
+
+    .header-left{
+        flex-basis: 40%;
+        border-bottom: none;
+        border-right: 2px solid var(--primary-text-color);
+        /* gap: 20px; */
+    }
+
+    .header-right{
+        flex-basis: 60%;
+    }
+    
+}
+
+@media screen and (width < 580px){
+
+    .nav-icon{
+        display: block;
+    }
+
+    .header.active{
+        margin-top: 160px;
+    }
+    
+    tbody{
+        display: grid;
+        gap: 10px;
+    }
+
+    tr.hour-row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 110px);
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    .search-bar{
+        position: absolute;
+        top: 100%;
+        height: 4rem;
+        box-shadow: 0 1px 4px hsla(199, 32%, 67%, 0.758);
+        padding-inline: var(--padding-twenty);
+        left: -250%;
+        overflow: hidden;
+        transition: all .3s ease-in-out;
+    }
+
+    .search-bar.active{
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .searchButton{
+        font-size: .7rem;
+    }
+
+    .searchField{
+        height: 50%;
+    }
+}
