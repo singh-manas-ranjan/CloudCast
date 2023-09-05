@@ -32,9 +32,9 @@
         display: block;
     } */
 
-    .header{
+    /* .header{
         margin-top: 160px;
-    }
+    } */
     
     tbody{
         display: grid;
@@ -50,6 +50,11 @@
     }
 
     .search-bar{
+        height: 3.5rem;
+        flex-basis: 250px;
+    }
+
+    /* .search-bar{
         position: absolute;
         left: 0;
         right: 0;
@@ -58,10 +63,10 @@
         height: 4rem;
         box-shadow: 0 1px 4px hsla(199, 32%, 67%, 0.758);
         padding-inline: var(--padding-twenty);
-        /* left: -250%; */
+        left: -250%;
         overflow: hidden;
         transition: all .3s ease-in-out;
-    }
+    } */
 
     /* .search-bar.active{
         left: 0;
