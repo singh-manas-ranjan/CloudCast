@@ -8,9 +8,9 @@ companyLogo.addEventListener('click',()=>{
     window.location.reload();
 })
 
-navIcon.addEventListener('click',()=>{
-    searchBar.classList.toggle('active');
-    headerSection.classList.toggle('active');
-})
+// navIcon.addEventListener('click',()=>{
+//     searchBar.classList.toggle('active');
+//     headerSection.classList.toggle('active');
+// })
 
 
