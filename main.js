@@ -11,7 +11,7 @@ function reloadPage(){
 let locationData = null;
 let data = null;
 
-const HOUR_FORMATTER = new Intl.DateTimeFormat(undefined,{hour : "numeric", hour12: true});
+const HOUR_FORMATTER = new Intl.DateTimeFormat(undefined,{hour : "numeric"});
 const DAY_FORMATTER = new Intl.DateTimeFormat(undefined,{weekday:"long"});
 
 // ================= Fetch Weather Info By Accessing Location =================
