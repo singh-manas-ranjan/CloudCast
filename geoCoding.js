@@ -20,7 +20,8 @@ export async function fetchLocationName(lat, lon){
     const res = await axios.get('https://geocode.maps.co/reverse?',{
         params :{
             lat :lat,
-            lon :lon
+            lon :lon,
+            api_key:67080d5d20d96981564201oxkc7c68f
         }
     })
 
